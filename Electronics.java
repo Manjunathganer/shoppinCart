@@ -6,9 +6,9 @@ public Electronics(String name, double price, int quantity) {
 	}
 @Override
 public double calaculateprice() {
-	// TODO Auto-generated method stub
 	return getPrice()*getQuantity()*1.18;
 }
 
 }
+
 
