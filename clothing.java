@@ -7,7 +7,7 @@ public class clothing extends Product {
 	
 	@Override
 	public double calaculateprice() {
-		// TODO Auto-generated method stub
 		return getPrice()* getQuantity()* 0.90;
 	}
 }
+
